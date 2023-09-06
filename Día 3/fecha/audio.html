@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../main.css">
+    <title>Audio Alarma</title>
+</head>
+<body onload="comenzarRelog()">
+    <input type="number" name="time" id="time">
+    <button class="btn" onclick="activarAlarma()">Activar</button>
+
+    <h1 id="textoAlarma">00:00:00</h1>
+
+    <audio id="audioAlarma">
+        <source src="alarma.mp3" type="audio/mpeg">
+        Sonido no habilitado
+    </audio>
+
+    <script src="main.js"></script>
+</body>
+</html>

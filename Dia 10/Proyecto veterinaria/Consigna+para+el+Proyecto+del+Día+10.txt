@@ -1,0 +1,12 @@
+La herencia, como vimos, es una pieza clave dentro de la programación orientada a objetos y su concepto se aplica en todos los lenguajes de programación de este tipo. Pero a nosotros hoy nos importa JavaScript, así que vamos a practicar la herencia en el proyecto del día, con un proyecto similar al de ayer, solo que esta vez aplicando herencia a través de clases.
+Hoy vamos a crear el sitio web de una veterinaria, que muestra todas las mascotas que tienen a su cargo en este momento.
+Entonces vamos a crear una pagina HTML, y en el archivo js asociado, debes hacer lo siguiente:
+1. Crear una clase (de la forma que más te guste) llamada Animal, cuyo constructor defina las propiedades: nombre, peso y edad.
+2. Crear una subclase llamada Perro, que HEREDA de la clase Animal y agrega la propiedad raza.
+3. Crear una subclase llamada Gato, que también HEREDA de la clase Animal y agrega la propiedad sexo.
+4. Crear una subclase llamada Conejo, que HEREDA de la clase Animal y agrega la propiedad color.
+5. Luego, definir un método denominado información, que devuelva un string con el contenido de los atributos. Cabe destacar que cuando defines el método de la clase Animal, este se hereda a las subclases ya creadas. En cada subclase, se puede sobrescribir este método (con el mismo nombre) y definir nuevamente la funcionalidad del método, agregando el contenido del atributo nuevo de la clase.
+6. Y por último, debes crear tres instancias de objeto, una para cada una de las clases Perro, Gato y Conejo.
+La pagina HTML, deberá contar con un botón que llamara a una función para mostrar en pantalla (de la forma que gustes) los atributos de cada una de las instancias Perro, Gato y Conejo, utilizando el método información declarada para cada uno.
+No olvides utilizar el cuestionario que viene a continuación para tenerlo abierto todo el tiempo y poder así ir siguiendo paso a paso todo el proceso.
+Te deseo mucha suerte y nos vemos luego de que hayas terminado.

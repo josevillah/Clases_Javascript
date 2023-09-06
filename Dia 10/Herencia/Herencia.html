@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herencia</title>
+</head>
+<body>
+    <script>
+        // declaracion de clases
+        class Papel {
+            constructor(alto, ancho){
+                this.alto = alto;
+                this.ancho = ancho;
+            }
+        }
+
+        let papel1 = new Papel(4, 5);
+        console.log(papel1);
+
+
+        // Creando clase anonima
+        let Papel2 = class {
+            constructor(alto, ancho){
+                this.alto = alto;
+                this.ancho = ancho;
+            }
+        }
+
+        let papel22 = new Papel2(5, 2);
+        console.log(papel22);
+
+
+
+        // Creando clase anonima
+        let Papel3 = class Papelx {
+            constructor(alto, ancho){
+                this.alto = alto;
+                this.ancho = ancho;
+            }
+        }
+
+        let papel33 = new Papel3(20, 35);
+
+        console.log(papel33);
+    </script>
+    <script src="main.js"></script>
+</body>
+</html>

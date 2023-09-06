@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get y Set</title>
+</head>
+<body>
+    
+
+    <script>
+
+        class Deportista{
+            constructor(nombre, apellido){
+                this.nombre = nombre;
+                this.apellido = apellido;
+            }
+        }
+
+
+        class Futbolista extends Deportista{
+            constructor(nombre, apellido, goles){
+                super(nombre, apellido);
+                this._goles = goles;
+            }
+
+            get goles(){
+                return this._goles;
+            }
+
+            set goles(goles){
+                this._goles = goles;
+            }
+        }
+
+        let futbolista1 = new Futbolista("Cristiano", "Ronaldo", 46);
+
+        futbolista1.goles = 68;
+        console.log(futbolista1.goles);
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+    "nombre": "Jose Villa",
+    "edad": 29,
+    "esEstudiante": false,
+    "direccion": {
+        "calle": "Goycolea 1366",
+        "ciudad": "Valdivia"
+    },
+    "telefonos:": [
+        "992-953-190",
+        "992-953-191"
+    ]
+}

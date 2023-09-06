@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../main.css">
+    <title>Proyecto Día 3</title>
+</head>
+<body onload="cuentaRegresiva()">
+    <h1 style="text-align: center;">Juego de preguntas</h1>
+    <div class="container">
+        <div class="panel">
+            <h1 id="textcuentaRegresiva">30 seg</h1>
+            <div class="pregunta">
+                <label for="pre1">Pregunta 1</label>
+                <input type="text" name="pre1" id="pre1">
+            </div>
+            <div class="pregunta">
+                <label for="pre2">Pregunta 2</label>
+                <input type="text" name="pre2" id="pre2">
+            </div>
+            <div class="pregunta">
+                <label for="pre3">Pregunta 3</label>
+                <input type="text" name="pre3" id="pre3">
+            </div>
+            <div class="pregunta">
+                <label for="pre4">Pregunta 4</label>
+                <input type="text" name="pre4" id="pre4">
+            </div>
+            <div class="pregunta">
+                <label for="pre5">Pregunta 5</label>
+                <input type="text" name="pre5" id="pre5">
+            </div>
+            <div class="botones">
+                <button class="btn" onclick="finalizarJuego()">Finalizar</button>
+                <button class="btn-reiniciar">Reiniciar</button>
+            </div>
+
+        </div>
+    </div>
+    
+    <audio id="audioAlarma">
+        <source src="alarma.mp3" type="audio/mpeg">
+        Sonido no habilitado
+    </audio>
+
+    <script src="main.js"></script>
+</body>
+</html>

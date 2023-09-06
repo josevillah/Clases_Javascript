@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Empleados</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="panel">
+            <div class="formulario">
+                <h2>Empleados</h2>
+                <div class="input">
+                    <label for="legajo">Legajo</label>
+                    <input type="text" id="legajo">
+                </div>
+                <div class="input">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre">
+                </div>
+                <div class="input">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" id="apellido">
+                </div>
+                <div class="input">
+                    <label for="fechaNacimiento">Fecha Nacimiento</label>
+                    <input type="date" id="fechaNacimiento">
+                </div>
+                <div class="input">
+                    <label for="cargo">Cargo</label>
+                    <input type="text" id="cargo">
+                </div>
+            </div>
+            <div class="botones">
+                <button class="btn btn-generar" onclick="getDatosEmpleado()">Generar</button>
+                <button class="btn btn-mostrar" onclick="listarEmpleados()">Mostrar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

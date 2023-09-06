@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f1f1f1;
+}
+
+.container {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .panel {
+    width: 600px;
+    height: 500px;
+    padding: 30px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel .formulario{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario h2{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.formulario .input{
+    width: 300px;
+    height: 50px;
+}
+
+.input input[type="text"]{
+    border: 2px solid #c6c6c6;
+    padding: 5px;
+}
+
+.panel .botones{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.botones .btn{
+    width: 80px;
+    height: 30px;
+    margin: 0 5px;
+    outline: none;
+    border: 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn.btn-generar{
+    background-color: #3d90ff;
+    color: #fff;
+    border: 2px solid #3d90ff;
+}
+
+.btn.btn-generar:hover{
+    background-color: #fff;
+    color: #3d90ff;
+}
+
+.btn.btn-mostrar{
+    background-color: #049c0d;
+    color: #fff;
+    border: 2px solid #049c0d;
+}
+
+.btn.btn-mostrar:hover{
+    background-color: #fff;
+    color: #049c0d;
+}
